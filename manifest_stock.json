@@ -1,6 +1,6 @@
 {
 	"status": "ok",
-	"date": "2016-07-07",
+	"date": "2015-09-04",
 	"commands": "",
 	"gpg": false,
 	"devices":
@@ -11,53 +11,57 @@
 						"url": "https://github.com/I8552-CM/multirom_device_delos3geur/releases/download/initial/multirom-20160929-v33-UNOFFICIAL-delos3geur.zip",
 						"version": "33",
 						"type": "multirom",
-						"size": 3958573,
-						"md5": "5dd470b61fcca99939c223fb2ee15b90"
+						"size": 3928163,
+						"md5": "88d99b70db5eb990fff022a6d5ff7da6"
 					},
 					{
 						"url": "https://github.com/I8552-CM/multirom_device_delos3geur/releases/download/initial/multirom-20160929-3.0.28-UNOFFICIAL-delos3geur.zip",
-						"version": "mrom20160704-01",
+						"version": "mrom20150925-00",
 						"type": "recovery",
-						"size": 16230400,
-						"md5": "effb9c3313518b3850f807851e52335d"
+						"size": 12804096,
+						"md5": "00cca085a1cbb04454308c3139ee4662"
 					},
 					{
-						"extra": {"releases":["stock"]},
+						"extra": {"releases":["LP"]},
 						"url": "https://github.com/I8552-CM/multirom_device_delos3geur/releases/download/initial/kernel-20170217-3.4.0-UNOFFICIAL-delos3geur.zip",
-						"version": "stock",
-						"md5": "905f770413b3f06912edd91ee435327f",
+						"version": "5.x.x(lp)",
+						"md5": "937892468ffd3a4bf7254a8689d017fc",
 						"type": "kernel",
-						"size": 16816339
+						"size": 7739560
+					},
+                    {
+						"extra": {"releases":["KK"]},
+						"url": "https://basketbuild.com/dl/devs?dl=TheStrix/multirom/armani/KK_kexec_20150925.zip",
+						"version": "4.4.x(kk)",
+						"md5": "83b35368cdce3a3215fa8a6caac53c78",
+						"type": "kernel",
+						"size": 7775546
 					},
 					{
-						"url": "https://github.com/chautruongthinh/multirom_A910/raw/master/multirom_uninstaller.zip",
-						"version": "1",
+						"url": "https://basketbuild.com/dl/devs?dl=TheStrix/multirom/armani/multirom_uninstaller.zip",
+						"version": "",
 						"type": "uninstaller",
-						"size": 1638257,
-						"md5": "85e359d6cdf7ca1c8a692f82b15a09bb"
+						"size": 1623253,
+						"md5": "3f717df3e8f1f45a5f031090838c831a"
 					}
 				],
 			"changelogs":
 				[
 					{
-						"url": "https://github.com/chautruongthinh/multirom_A910/raw/master/changelog_multirom.txt",
+						"url": "https://multirom-armani.github.io/changelog_armani_multirom.txt",
 						"name": "MultiROM"
 					},
 					{
-						"url": "https://github.com/chautruongthinh/multirom_A910/raw/master/changelog_recovery.txt",
+						"url": "https://multirom-armani.github.io/changelog_armani_recovery.txt",
 						"name": "Recovery"
 					}
-			
 				],
-			"name": "ef63s",
+			"name": "armani",
 			"ubuntu_touch":
 				{
-					"req_multirom": "",
-					"req_recovery": ""
+					"req_multirom": "32",
+					"req_recovery": "mrom20150904-00"
 				}
 			}
 		]
-	
 }
-
-
