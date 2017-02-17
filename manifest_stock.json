@@ -1,0 +1,63 @@
+{
+	"status": "ok",
+	"date": "2016-07-07",
+	"commands": "",
+	"gpg": false,
+	"devices":
+		[
+			{"files":
+				[
+					{
+						"url": "https://github.com/I8552-CM/multirom_device_delos3geur/releases/download/initial/multirom-20160929-v33-UNOFFICIAL-delos3geur.zip",
+						"version": "33",
+						"type": "multirom",
+						"size": 3958573,
+						"md5": "5dd470b61fcca99939c223fb2ee15b90"
+					},
+					{
+						"url": "https://github.com/I8552-CM/multirom_device_delos3geur/releases/download/initial/multirom-20160929-3.0.28-UNOFFICIAL-delos3geur.zip",
+						"version": "mrom20160704-01",
+						"type": "recovery",
+						"size": 16230400,
+						"md5": "effb9c3313518b3850f807851e52335d"
+					},
+					{
+						"extra": {"releases":["stock"]},
+						"url": "https://github.com/I8552-CM/multirom_device_delos3geur/releases/download/initial/kernel-20170217-3.4.0-UNOFFICIAL-delos3geur.zip",
+						"version": "stock",
+						"md5": "905f770413b3f06912edd91ee435327f",
+						"type": "kernel",
+						"size": 16816339
+					},
+					{
+						"url": "https://github.com/chautruongthinh/multirom_A910/raw/master/multirom_uninstaller.zip",
+						"version": "1",
+						"type": "uninstaller",
+						"size": 1638257,
+						"md5": "85e359d6cdf7ca1c8a692f82b15a09bb"
+					}
+				],
+			"changelogs":
+				[
+					{
+						"url": "https://github.com/chautruongthinh/multirom_A910/raw/master/changelog_multirom.txt",
+						"name": "MultiROM"
+					},
+					{
+						"url": "https://github.com/chautruongthinh/multirom_A910/raw/master/changelog_recovery.txt",
+						"name": "Recovery"
+					}
+			
+				],
+			"name": "ef63s",
+			"ubuntu_touch":
+				{
+					"req_multirom": "",
+					"req_recovery": ""
+				}
+			}
+		]
+	
+}
+
+
